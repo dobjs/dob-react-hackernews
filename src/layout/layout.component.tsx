@@ -13,13 +13,15 @@ function getPageType(pathName: string) {
   switch (pathName) {
     case '/':
       return 'top'
-    case '/new':
+    case '/dob-react-hackernews':
+      return 'top'
+    case '/dob-react-hackernews/new':
       return 'new'
-    case '/show':
+    case '/dob-react-hackernews/show':
       return 'show'
-    case '/ask':
+    case '/dob-react-hackernews/ask':
       return 'ask'
-    case '/jobs':
+    case '/dob-react-hackernews/jobs':
       return 'jobs'
     default:
       return null
@@ -56,11 +58,11 @@ export default class Layout extends PureComponent<Props, State> {
             <Link to="/">
               <S.Logo src="https://avatars1.githubusercontent.com/u/32093464?s=200&v=4" />
             </Link>
-            <Link to="/" className={classnames({ active: this.props.location.pathname === '/' })}>top</Link>
-            <Link to="/new" className={classnames({ active: this.props.location.pathname === '/new' })}>new</Link>
-            <Link to="/show" className={classnames({ active: this.props.location.pathname === '/show' })}>show</Link>
-            <Link to="/ask" className={classnames({ active: this.props.location.pathname === '/ask' })}>ask</Link>
-            <Link to="/jobs" className={classnames({ active: this.props.location.pathname === '/jobs' })}>jobs</Link>
+            <Link to="/" className={classnames({ active: this.props.location.pathname === '/dob-react-hackernews' })}>top</Link>
+            <Link to="/new" className={classnames({ active: this.props.location.pathname === '/dob-react-hackernews/new' })}>new</Link>
+            <Link to="/show" className={classnames({ active: this.props.location.pathname === '/dob-react-hackernews/show' })}>show</Link>
+            <Link to="/ask" className={classnames({ active: this.props.location.pathname === '/dob-react-hackernews/ask' })}>ask</Link>
+            <Link to="/jobs" className={classnames({ active: this.props.location.pathname === '/dob-react-hackernews/jobs' })}>jobs</Link>
           </S.NavLeft>
 
           <S.NavRight>
