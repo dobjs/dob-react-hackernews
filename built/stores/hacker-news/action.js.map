@@ -1,0 +1,1 @@
+{"version":3,"file":"action.js","sourceRoot":"","sources":["../../../src/stores/hacker-news/action.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;AAAA,6BAAqC;AACrC,mCAAsC;AAEtC;IAIuB,aAAa,CAAC,IAAY;;YAC7C,IAAI,CAAC,eAAe,CAAC,OAAO,GAAG,IAAI,CAAC;QACtC,CAAC;KAAA;CACF;AALC;IADC,YAAM,CAAC,eAAe,CAAC;8BACC,eAAe;yDAAC;AAEjC;IAAP,YAAM;;;;qDAEN;AANH,mCAOC"}
