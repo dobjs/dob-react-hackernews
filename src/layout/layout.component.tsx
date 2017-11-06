@@ -14,14 +14,19 @@ function getPageType(pathName: string) {
     case '/':
       return 'top'
     case '/dob-react-hackernews':
+    case '/dob-react-hackernews/':
       return 'top'
     case '/dob-react-hackernews/new':
+    case '/dob-react-hackernews/new/':
       return 'new'
     case '/dob-react-hackernews/show':
+    case '/dob-react-hackernews/show/':
       return 'show'
     case '/dob-react-hackernews/ask':
+    case '/dob-react-hackernews/ask/':
       return 'ask'
     case '/dob-react-hackernews/jobs':
+    case '/dob-react-hackernews/jobs/':
       return 'jobs'
     default:
       return null
