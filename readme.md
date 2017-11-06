@@ -1,6 +1,8 @@
 # Dob Hackernews clone
 
-Live demo: TODO
+![home](./assets/home.png)
+
+[Live demo](https://dobjs.github.io/dob-react-hackernews/)
 
 ## Building
 

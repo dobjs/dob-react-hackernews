@@ -66,7 +66,7 @@ export default class Layout extends PureComponent<Props, State> {
           </S.NavLeft>
 
           <S.NavRight>
-            <Link to="/about">about</Link>
+
           </S.NavRight>
         </S.Nav>
 
