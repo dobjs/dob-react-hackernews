@@ -22,22 +22,10 @@ export const Nav = styled.nav`
     height: 100%;
     display: flex;
     align-items: center;
+    border-top: 4px solid transparent;
 
     &.active {
-      
-    }
-
-    &::after {
-      transform: translateY(0);
-      display: block;
-      content: "";
-      background: #fff;
-      height: 2px;
-      position: absolute;
-      width: 100%;
-      bottom: 0;
-      transition: transform .3s ease-out;
-      transform: translateY(3px);
+      border-top: 4px solid white;
     }
   }
 `

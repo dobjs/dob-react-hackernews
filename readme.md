@@ -8,4 +8,6 @@ Live demo: TODO
 npm install
 # watch
 npm start
+# build
+npm run build
 ```

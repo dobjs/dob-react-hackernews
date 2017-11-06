@@ -55,14 +55,14 @@ export default class Layout extends PureComponent<Props, State> {
       <S.Container>
         <S.Nav>
           <S.NavLeft>
-            <Link to="/">
+            <Link to="/dob-react-hackernews">
               <S.Logo src="https://avatars1.githubusercontent.com/u/32093464?s=200&v=4" />
             </Link>
-            <Link to="/" className={classnames({ active: this.props.location.pathname === '/dob-react-hackernews' })}>top</Link>
-            <Link to="/new" className={classnames({ active: this.props.location.pathname === '/dob-react-hackernews/new' })}>new</Link>
-            <Link to="/show" className={classnames({ active: this.props.location.pathname === '/dob-react-hackernews/show' })}>show</Link>
-            <Link to="/ask" className={classnames({ active: this.props.location.pathname === '/dob-react-hackernews/ask' })}>ask</Link>
-            <Link to="/jobs" className={classnames({ active: this.props.location.pathname === '/dob-react-hackernews/jobs' })}>jobs</Link>
+            <Link to="/dob-react-hackernews" className={classnames({ active: this.props.location.pathname === '/dob-react-hackernews' })}>top</Link>
+            <Link to="/dob-react-hackernews/new" className={classnames({ active: this.props.location.pathname === '/dob-react-hackernews/new' })}>new</Link>
+            <Link to="/dob-react-hackernews/show" className={classnames({ active: this.props.location.pathname === '/dob-react-hackernews/show' })}>show</Link>
+            <Link to="/dob-react-hackernews/ask" className={classnames({ active: this.props.location.pathname === '/dob-react-hackernews/ask' })}>ask</Link>
+            <Link to="/dob-react-hackernews/jobs" className={classnames({ active: this.props.location.pathname === '/dob-react-hackernews/jobs' })}>jobs</Link>
           </S.NavLeft>
 
           <S.NavRight>
@@ -71,11 +71,11 @@ export default class Layout extends PureComponent<Props, State> {
         </S.Nav>
 
         <Switch>
-          <Route exact path="/" render={props => <Lists type="top" />} />
-          <Route exact path="/new" render={props => <Lists type="new" />} />
-          <Route exact path="/show" render={props => <Lists type="show" />} />
-          <Route exact path="/ask" render={props => <Lists type="ask" />} />
-          <Route exact path="/jobs" render={props => <Lists type="jobs" />} />
+          <Route exact path="/dob-react-hackernews" render={props => <Lists type="top" />} />
+          <Route exact path="/dob-react-hackernews/new" render={props => <Lists type="new" />} />
+          <Route exact path="/dob-react-hackernews/show" render={props => <Lists type="show" />} />
+          <Route exact path="/dob-react-hackernews/ask" render={props => <Lists type="ask" />} />
+          <Route exact path="/dob-react-hackernews/jobs" render={props => <Lists type="jobs" />} />
         </Switch>
       </S.Container>
     );
