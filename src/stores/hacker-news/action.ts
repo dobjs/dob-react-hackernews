@@ -3,7 +3,7 @@ import request from '../../utils/fetch'
 
 import HackerNewsStore from "./store";
 
-const Hosts = 'http://node-hnapi.herokuapp.com'
+const Hosts = '//node-hnapi.herokuapp.com'
 
 function getRequestUrlByType(type: string) {
   switch (type) {
